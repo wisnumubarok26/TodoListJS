@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="list.js">
+</head>
+<body>
+    <div class="container">
+        <div class="container-form">
+            <h2 style="font-size: 30px; letter-spacing: 4px;">Todo List</h2>
+        <p>Silahkan masukan barang</p>
+        <form name="formTodo" id="formTodo">
+            <tr>
+                <td>
+                    <label for="">Masukan barang</label><br>
+                    <input id="todoText"class="input-text" type="text">
+                </td>
+
+            </tr>
+            <br><br>
+            <tr>
+                <td>
+                    <label for="input" style="margin-bottom: 0px;">pilih jenis waktu</label><br>
+                    <input class="list" list="barang" id="jenis-waktu">
+                    <datalist id="barang">
+                        <option value="Baru"></option>
+                        <option value="Kemarin"></option>
+                        <option value="Sudah Lama"></option>
+                        <option value="Kadaluarsa"></option>
+                    </datalist>
+                </td>
+                <td>
+                    <input class="simpan" type="submit" value="simpan">
+                </td>
+            </tr>
+        </form>
+    </div>
+        </div>
+        
+    
+    <div class="daftar-list">
+        <h2>Daftar list</h2>
+        <div class="daftar-table">
+                <table>
+                    <thead class="head">
+                        <tr>
+                            <th>
+                                <label for="daftar" class="head-daftar">Daftar</label>
+                            </th>
+                            <th>
+                                <label for="jenis" class="head-jenis">Jenis waktu</label>
+                            </th>
+                            <th>
+                                <label for="jenis" class="head-pilih">Pilih</label>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tampilan">
+                    
+                    </tbody>
+                </table>
+                
+            
+        </div>
+        <div id="search-box" style="padding-top: 20px;">
+            <label>Cari</label>
+            <input id="search" type="text">
+            
+        </div>
+    </div>
+    <script src="list.js"></script>
+    
+</body>
+</html>

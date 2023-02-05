@@ -1,0 +1,66 @@
+body{
+    background-color: brown;
+}
+.container{
+    background-color: aliceblue;
+    padding: 10px 50px 50px 50px;
+    margin: 50px 200px 10px 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.daftar-list{
+    background-color: aliceblue;
+    padding: 5px 50px 50px 50px;
+    margin: 50px;
+    border-radius: 10px;
+
+}
+.daftar-list h2{
+    text-align: center;
+}
+.head{
+    background-color: blue;
+}
+.head-daftar{
+    padding: 3px 80px;
+}
+.head-jenis{
+    padding: 3px 30px;
+}
+.head-pilih{
+    padding: 3px 30px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.daftar-table{
+    display: flex;
+    justify-content: center;
+}
+#search-box{
+    margin: 10px 0px 0px 300px
+}
+
+#todoText, #jenis-waktu {
+    padding: 3px;
+}
+.simpan{
+    background-color: blueviolet;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-style: none;
+}
+.simpan:hover{
+    transform: scale(1.1);
+    background-color: brown;
+}
+.list{
+    margin-top: 0px
+}
